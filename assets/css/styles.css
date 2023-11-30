@@ -11,7 +11,13 @@
   border: 0;
   border-top: 1px dashed #999;
 }
-
+/* 实线边框，颜色为黑色 */
+.hr-solid {
+  display: block;
+  margin: 0.2em 0;
+  border: 0;
+  border-top: 2px solid #000; 
+}
 
 /* // 两端对齐
 .profile-container {
