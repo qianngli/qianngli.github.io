@@ -14,9 +14,9 @@
 /* 实线边框，颜色为黑色 */
 .hr-solid {
   display: block;
-  margin: 0.5em 0;
+  margin: 1em 0;
   border: 0;
-  border-top: 1.5px solid #999999; 
+  border-top: 2px solid #cccccc; 
 }
 
 /* // 两端对齐
