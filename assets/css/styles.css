@@ -7,7 +7,7 @@
 /* 虚线边框，颜色为灰色 */
 .hr-dashed {
   display: block;
-  margin: 1em 0;
+  margin: 0.1em 0;
   border: 0;
   border-top: 1px dashed #999;
 }
