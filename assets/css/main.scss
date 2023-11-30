@@ -49,40 +49,40 @@
     flex-wrap: wrap;
     border-bottom: 1px #efefef solid;
     padding: 0.5em 0 0.5em 0;
-}
 
-.paper-box-image {
-    justify-content: center;
-    display: flex;
-    width: 100%;
-    order: 2;
-}
-
-.paper-box-image img {
-    width: 400px;
-    height: 160px;
-    box-shadow: 3px 3px 6px #888;
-    object-fit: cover;
-}
-
-.paper-box-text {
-    max-width: 100%;
-    order: 1;
-}
-
-@media screen and (min-width: YOUR_MEDIUM_BREAKPOINT) {
     .paper-box-image {
-        justify-content: left;
-        min-width: 200px;
-        max-width: 35%;
-        order: 1;
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        order: 2;
+
+        img {
+            width: 400px; /* 固定图片宽度 */
+            height: 300px; /* 固定图片高度 */
+            box-shadow: 3px 3px 6px #888;
+            object-fit: cover;
+        }
     }
 
     .paper-box-text {
-        justify-content: left;
-        padding-left: 1em;
-        max-width: 65%;
-        order: 2;
+        max-width: 100%;
+        order: 1;
+    }
+
+    @include breakpoint($medium) {
+        .paper-box-image {
+            justify-content: left;
+            min-width: 200px;
+            max-width: 35%;
+            order: 1;
+        }
+
+        .paper-box-text {
+            justify-content: left;
+            padding-left: 1em;
+            max-width: 65%;
+            order: 2;
+        }
     }
 }
 
@@ -108,6 +108,7 @@ h1:before,
     background-color: #00369f;
     font-size: .8em;
 }
+
 
 
 
