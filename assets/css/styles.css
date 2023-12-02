@@ -19,6 +19,20 @@
   border-top: 2px solid #c7c7c7; 
 }
 
+/* 使用不同的list-style-type值来设置不同的标记类型 */
+/* 实心圆点 */
+.circle-list {
+list-style-type: circle;
+  }
+/* 空心圆 */
+.disc-list {
+  list-style-type: disc;
+}
+/* 方块 */
+.square-list {
+  list-style-type: square;
+}
+
 /* // 两端对齐
 .profile-container {
   text-align: justify;
