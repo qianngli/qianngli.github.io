@@ -50,6 +50,11 @@
     border-bottom: 1px #efefef solid;
     padding: 0.5em 0 0.5em 0;
 
+    .paper-box-text {
+        max-width: 100%;
+        order: 2;
+    }
+    
     .paper-box-image {
         justify-content: center;
         display: flex;
@@ -64,25 +69,20 @@
         }
     }
 
-    .paper-box-text {
-        max-width: 100%;
-        order: 2;
-    }
-
     @include breakpoint($medium) {
-        .paper-box-image {
-            justify-content: left;
-            min-width: 200px;
-            max-width: 35%;
-            order: 2;
-        }
-
         .paper-box-text {
             justify-content: left;
             padding-left: 1em;
             max-width: 65%;
             order: 1;
         }
+        
+        .paper-box-image {
+            justify-content: left;
+            min-width: 200px;
+            max-width: 35%;
+            order: 2;
+        } 
     }
 }
 
