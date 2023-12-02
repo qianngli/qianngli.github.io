@@ -43,13 +43,13 @@
 // 文字|图片
 .paper-box {
     display: flex;
-    // justify-content: left;
+    justify-content: space-between;// justify-content: left;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
     border-bottom: 1px #efefef solid;
     padding: 0.5em 0 0.5em 0;
-    justify-content: space-between;
+    
 
     .paper-box-image {
         justify-content: center;
