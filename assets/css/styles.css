@@ -20,11 +20,11 @@
 }
 
 /* 使用不同的list-style-type值来设置不同的标记类型 */
-/* 实心圆点 */
+/* 空心圆 */
 .circle-list {
 list-style-type: circle;
   }
-/* 空心圆 */
+/* 实心圆点 */
 .disc-list {
   list-style-type: disc;
 }
