@@ -45,7 +45,7 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    flex-direction: row;
+    flex-direction: row-reverse; //row 从左到右
     flex-wrap: wrap;
     border-bottom: 1px #efefef solid;
     padding: 0.5em 0 0.5em 0;
