@@ -43,7 +43,7 @@
 // 文字|图片
 .paper-box {
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: row-reverse; //row 从左到右
     flex-wrap: wrap;
