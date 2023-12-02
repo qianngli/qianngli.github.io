@@ -45,16 +45,11 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    flex-direction: row-reverse; //row 从左到右
+    flex-direction: row;
     flex-wrap: wrap;
     border-bottom: 1px #efefef solid;
     padding: 0.5em 0 0.5em 0;
 
-    .paper-box-text {
-        max-width: 100%;
-        order: 1;
-    }
-    
     .paper-box-image {
         justify-content: center;
         display: flex;
@@ -62,27 +57,32 @@
         order: 2;
 
         img {
-            width: 400px; //固定图片宽度
-            height: 140px; //固定图片高度
+            width: 400px; /* 固定图片宽度 */
+            height: 130px; /* 固定图片高度 */
             box-shadow: 3px 3px 6px #888;
             object-fit: cover;
         }
     }
 
+    .paper-box-text {
+        max-width: 100%;
+        order: 1;
+    }
+
     @include breakpoint($medium) {
-        .paper-box-text {
-            justify-content: left;
-            padding-left: 1em;
-            max-width: 65%;
-            order: 1;
-        }
-        
         .paper-box-image {
             justify-content: left;
             min-width: 200px;
             max-width: 35%;
+            order: 1;
+        }
+
+        .paper-box-text {
+            justify-content: left;
+            padding-left: 1em;
+            max-width: 65%;
             order: 2;
-        } 
+        }
     }
 }
 
@@ -108,7 +108,6 @@ h1:before,
     background-color: #00369f;
     font-size: .8em;
 }
-
 
 
 
