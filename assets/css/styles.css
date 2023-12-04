@@ -50,7 +50,6 @@ list-style-type: circle;
   vertical-align: middle; /* 垂直居中对齐 */
   display: inline-block; /* 设置为行内块级元素 */
   width: 1em; /* 可以根据实际情况调整宽度 */
-  text-align: right; /* 右对齐 */
 }
 
 /* // 表格 
