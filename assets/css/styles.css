@@ -49,7 +49,7 @@ list-style-type: circle;
   margin-left: 0.5em; /* 调整序号与引用文本之间的距离 */
   vertical-align: middle; /* 垂直居中对齐 */
   display: inline-block; /* 设置为行内块级元素 */
-  width: 2em; /* 可以根据实际情况调整宽度 */
+  width: 1em; /* 可以根据实际情况调整宽度 */
   text-align: right; /* 右对齐 */
 }
 
