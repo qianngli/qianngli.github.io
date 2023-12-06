@@ -26,31 +26,12 @@ layout: compress
       </footer>
     </div>-->
 
-    {% include scripts.html %}
-    
     <!-- 返回顶部按钮 -->
     <div id="return-top-button">
       <a href="#top">[Return Top]</a>
     </div>
-    <script>
-      window.addEventListener("scroll", function() {
-        var returnTopButton = document.getElementById("return-top-button");
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) 
-        {
-          returnTopButton.style.display = "block";
-        } 
-        else 
-        {
-          returnTopButton.style.display = "none";
-        }
-        });
-      
-      document.getElementById("return-top-button").addEventListener("click", function() {
-        document.body.scrollTop = 0; // For Safari
-        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
-      });
-    </script>
     
-
+    {% include scripts.html %}
+    
   </body>
 </html>
