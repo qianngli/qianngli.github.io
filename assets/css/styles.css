@@ -41,7 +41,7 @@ list-style-type: circle;
 }
 .citation-list li {
   counter-increment: my-counter;
-  margin-bottom: 12px;
+  margin-bottom: 7px;
 }
 .citation-list li::before {
   content: "[" counter(my-counter) "]";
