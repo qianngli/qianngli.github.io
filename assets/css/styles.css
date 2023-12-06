@@ -37,22 +37,22 @@ list-style-type: circle;
   list-style-type: none;
   counter-reset: my-counter;
   padding-left: 20px;
+  font-family: 'Times New Roman', Times, serif; /* 添加字体属性 */
 }
-
 .citation-list li {
   counter-increment: my-counter;
   margin-bottom: 12px;
 }
-
 .citation-list li::before {
   content: "[" counter(my-counter) "]";
   margin-right: 5px;
 }
-
 .citation-list li p {
   margin: 0; /* 去除段落的默认外边距 */
   text-indent: 20px; /* 设置文本缩进，与列表项的左侧保持一致 */
+  font-family: 'Times New Roman', Times, serif; /* 添加字体属性 */
 }
+
 
 
 /* // 表格 
