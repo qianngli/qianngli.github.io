@@ -80,7 +80,7 @@ list-style-type: circle;
   color: #000;
 }
 
-.masthead__menu-item.current a {
+.current a {
   color: #000099; /* 设置活动链接的字体颜色 */
 }
 
