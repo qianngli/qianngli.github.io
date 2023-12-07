@@ -2,15 +2,15 @@
 main:
   - title: "Publications"
     url: /publications/
-    identifier: Publications
+
     
   - title: "Project" # Portfolio
     url: /project/
-    identifier: Project
+   
     
   - title: "Professional Services" # Talks
     url: /professional-services/    
-    identifier: Professional Services
+  
 
   # - title: "Honors & Awards" # Teaching
   #   url: /honors-awards/    
