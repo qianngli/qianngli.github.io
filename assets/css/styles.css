@@ -22,15 +22,18 @@
 /* 使用不同的list-style-type值来设置不同的标记类型 */
 /* 空心圆 */
 .circle-list {
-list-style-type: circle;
+  list-style-type: circle;
+  font-family: 'Times New Roman', Times, serif; /* 添加字体属性 */
   }
 /* 实心圆点 */
 .disc-list {
   list-style-type: disc;
+  font-family: 'Times New Roman', Times, serif; /* 添加字体属性 */
 }
 /* 方块 */
 .square-list {
   list-style-type: square;
+  font-family: 'Times New Roman', Times, serif; /* 添加字体属性 */
 }
 /* 论文引用序号格式 */
 .citation-list {
