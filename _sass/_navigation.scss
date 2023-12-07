@@ -188,7 +188,7 @@
       color: $masthead-link-color-hover;
     }
 
-    &.masthead__menu-item--active {
+    &.active {
       font-weight: bold; // 高亮显示的链接加粗
       color: #000099; // 自定义高亮显示的链接颜色
     }
