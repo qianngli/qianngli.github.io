@@ -10,10 +10,13 @@
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
-              {% else %}
+            {% else %}
               {% assign domain = base_path %}
             {% endif %}  
-          <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li> 
+            {% assign is_current_page = page.current_page == link.identifier %}
+            <li class="masthead__menu-item{% if is_current_page %} masthead__menu-item--active{% endif %}">
+              <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+            </li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
@@ -21,3 +24,4 @@
     </div>
   </div>
 </div>
+
