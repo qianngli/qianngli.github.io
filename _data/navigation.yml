@@ -2,10 +2,10 @@ main:
   - title: "Publications"
     url: "#publications"
 
-  - title: "Project" # Portfolio
+  - title: "Project" 
     url: "#project"
 
-  - title: "Professional Services" # Talks
+  - title: "Professional Services"
     url: "#professional-services"
     
 # main links links
