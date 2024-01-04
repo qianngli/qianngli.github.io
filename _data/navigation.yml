@@ -1,15 +1,26 @@
-# main links links
 main:
   - title: "Publications"
-    url: /publications/
+    url: "#publications"
+
+  - title: "Project"
+    url: "#project"
+
+  - title: "Professional Services"
+    url: "#professional-services"
 
     
-  - title: "Project" # Portfolio
-    url: /project/
+# main links links
+# main:
+#   - title: "Publications"
+#     url: /publications/
+
+    
+#   - title: "Project" # Portfolio
+#     url: /project/
    
     
-  - title: "Professional Services" # Talks
-    url: /professional-services/    
+#   - title: "Professional Services" # Talks
+#     url: /professional-services/    
   
 
   # - title: "Honors & Awards" # Teaching
