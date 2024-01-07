@@ -29,6 +29,8 @@
 .disc-list {
   list-style-type: disc;
   font-size: 19px;
+  margin-top: 4px;
+  margin-bottom: 4px;
   font-family: 'Times New Roman', Times, serif; /* 添加字体属性 */
 }
 /* 实心圆点+缩小行间距 */
@@ -54,8 +56,8 @@
 }
 .citation-list li {
   counter-increment: my-counter;
-  margin-top: 3px;
-  margin-bottom: 3px;
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 .citation-list li::before {
   content: "[" counter(my-counter) "]";
