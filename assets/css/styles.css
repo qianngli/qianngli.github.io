@@ -28,13 +28,15 @@
 /* 实心圆点 */
 .disc-list {
   list-style-type: disc;
+  font-size: 19px;
   font-family: 'Times New Roman', Times, serif; /* 添加字体属性 */
 }
 /* 实心圆点+缩小行间距 */
 .disc-list-LineSpacing-S li {
   list-style-type: disc;
-  margin-top: 3px;
-  margin-bottom: 3px;
+  font-size: 19px;
+  margin-top: -3px;
+  margin-bottom: -3px;
   font-family: 'Times New Roman', Times, serif; /* 添加字体属性 */
 }
 /* 方块 */
@@ -47,6 +49,7 @@
   list-style-type: none;
   counter-reset: my-counter;
   padding-left: 0px;
+  font-size: 19px;
   font-family: 'Times New Roman', Times, serif; /* 添加字体属性 */
 }
 .citation-list li {
