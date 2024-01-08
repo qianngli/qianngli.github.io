@@ -1,4 +1,8 @@
 main:
+
+  - title: "News"
+    url: "#News"
+    
   - title: "Publications"
     url: "#publications"
 
