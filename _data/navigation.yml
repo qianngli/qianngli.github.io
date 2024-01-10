@@ -9,9 +9,14 @@ main:
   - title: "Project" 
     url: "#project"
 
+  - title: "Honors & Awards"
+    url: "#honors-awards"
+    
   - title: "Professional Services"
     url: "#professional-services"
-    
+
+  - title: "Collaborator"
+    url: "#collaborator"
 # main links links
 # main:
 #   - title: "Publications"
