@@ -99,22 +99,74 @@
 }
 
 /* 合伙人 */
-.collaborator-container {
-  display: flex;
-  align-items: center;
+.collaborator-box {
+    display: flex;
+    justify-content: space-between;// justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 1px #efefef solid;
+    padding: 0.5em 0 0.5em 0;
+    font-family: 'Times New Roman', Times, serif; // 添加字体样式
+
+    .collaborator-box-image {
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        order: 2;
+
+        img {
+            width: 200px; /* 固定图片宽度 */
+            height: 280px; /* 固定图片高度 */
+            box-shadow: 3px 3px 6px #888;
+            object-fit: cover;
+        }
+    }
+
+    .collaborator-box-text {
+        max-width: 100%;
+        line-height: 1.5;
+        order: 1;
+    }
+
+    @include breakpoint($medium) {
+        .collaborator-box-image {
+            justify-content: left;
+            min-width: 200px;
+            max-width: 35%;
+            order: 2;
+        }
+
+        .collaborator-box-text {
+            justify-content: left;
+            padding-right: 1em;
+            max-width: 65%;
+            order: 1;
+        }
+    }
 }
 
-.collaborator-image {
-  flex: 1;
-  width: 500px
-  height: 700px;
-  order: 1;
+$scroll_offset: 2em;
+
+h1:before,
+.anchor:before {
+    content: '';
+    display: block;
+    position: relative;
+    width: 0;
+    height: $scroll_offset;
+    margin-top: -$scroll_offset;
 }
 
-.collaborator-text {
-  flex: 1;
-  order: 2;
-  text-align: left;
+.badge {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: absolute;
+    margin-top: .5em;
+    margin-left: -.5em;
+    color: white;
+    background-color: #00369f;
+    font-size: .8em;
 }
 
 /* // 表格 
