@@ -80,7 +80,7 @@
 
 
 
-
+/* 返回顶部按钮 */
 #return-top-button {
   position: fixed;
   bottom: 20px;
@@ -98,6 +98,21 @@
   color: #000099;
 }
 
+/* 合伙人 */
+.collaborator-container {
+      display: flex;
+      align-items: center;
+    }
+
+.collaborator-image {
+      flex: 1;
+      order: 2; /* 控制图片在文本之后显示 */
+    }
+
+.collaborator-text {
+      flex: 1;
+      order: 1; /* 控制文本在图片之前显示 */
+    }
 
 /* // 表格 
 .profile-table {
