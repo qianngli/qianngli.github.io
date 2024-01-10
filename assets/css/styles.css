@@ -106,12 +106,12 @@
 
 .collaborator-image {
       flex: 1;
-      order: 2; /* 控制图片在文本之后显示 */
+      order: 1; 
     }
 
 .collaborator-text {
       flex: 1;
-      order: 1; /* 控制文本在图片之前显示 */
+      order: 2; 
     }
 
 /* // 表格 
