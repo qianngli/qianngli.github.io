@@ -99,37 +99,43 @@
 }
 
 /* 合伙人 */
-.collaborator-container {
-  display: flex;
-  align-items: center;
-}
+.collaborator-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 1px #efefef solid;
+    padding: 0.5em 0 0.5em 0;
+    font-family: 'Times New Roman', Times, serif;
 
-.collaborator-image {
-  flex: 0 0 500px;
-  height: 700px;
-  order: 1;
-}
+    .collaborator-box-image {
+        display: flex;
+        width: 100%;
+        order: 1;
 
-.collaborator-text {
-  flex: 1;
-  order: 2;
-  text-align: left;
-}
+        img {
+            width: 200px;
+            height: 280px;
+            object-fit: cover;
+        }
+    }
 
-/* // 表格 
-.profile-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 1em;
-}
+    .collaborator-box-text {
+        max-width: 100%;
+        line-height: 1.5;
+        order: 2;
+    }
 
-.profile-table th, .profile-table td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: center;
-}
+    @include breakpoint($medium) {
+        .collaborator-box-image {
+            min-width: 200px;
+            max-width: 20%;
+        }
 
-.profile-table th {
-  background-color: #333;
-  color: white;
-} */
+        .collaborator-box-text {
+            padding-right: 1em;
+            max-width: 80%;
+        }
+    }
+}
