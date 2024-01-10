@@ -4,6 +4,8 @@
 .justify-text {
   text-align: justify;
 }
+
+
 /* 虚线边框，颜色为灰色 */
 .hr-dashed {
   display: block;
@@ -19,15 +21,19 @@
   border-top: 2px solid #c7c7c7; 
 }
 
+
 /* 使用不同的list-style-type值来设置不同的标记类型 */
 /* 空心圆 */
 .circle-list {
   list-style-type: circle;
   font-family: 'Times New Roman', Times, serif; /* 添加字体属性 */
   }
+
 /* 实心圆点 */
 .disc-list {
   list-style-type: disc;
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-size: 19px;
   font-family: 'Times New Roman', Times, serif; /* 添加字体属性 */
 }
@@ -35,19 +41,13 @@
   margin-top: 4px;
   margin-bottom: 4px;
 }
-/* 实心圆点+缩小行间距 */
-.disc-list-LineSpacing-S li {
-  list-style-type: disc;
-  font-size: 19px;
-  margin-top: -3px;
-  margin-bottom: -3px;
-  font-family: 'Times New Roman', Times, serif; /* 添加字体属性 */
-}
+
 /* 方块 */
 .square-list {
   list-style-type: square;
   font-family: 'Times New Roman', Times, serif; /* 添加字体属性 */
 }
+
 /* 论文引用序号格式 */
 .citation-list {
   list-style-type: none;
