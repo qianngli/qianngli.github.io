@@ -101,7 +101,7 @@
 /* 合伙人 */
 .collaborator-box {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
@@ -115,8 +115,8 @@
         order: 1;
 
         img {
-            width: 200px;
-            height: 280px;
+            width: 150px;
+            height: 210px;
             object-fit: cover;
         }
     }
@@ -129,8 +129,9 @@
 
     @include breakpoint($medium) {
         .collaborator-box-image {
-            min-width: 200px;
+            min-width: 150px;
             max-width: 20%;
+            padding: 0 0 0 15px;
         }
 
         .collaborator-box-text {
