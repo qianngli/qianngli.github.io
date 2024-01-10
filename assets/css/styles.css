@@ -100,19 +100,22 @@
 
 /* 合伙人 */
 .collaborator-container {
-      display: flex;
-      align-items: center;
-    }
+  display: flex;
+  align-items: center;
+}
 
 .collaborator-image {
-      flex: 1;
-      order: 1; 
-    }
+  flex: 1;
+  width: 500px
+  height: 700px;
+  order: 1;
+}
 
 .collaborator-text {
-      flex: 1;
-      order: 2; 
-    }
+  flex: 1;
+  order: 2;
+  text-align: left;
+}
 
 /* // 表格 
 .profile-table {
