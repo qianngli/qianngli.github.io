@@ -111,12 +111,12 @@
 
     .collaborator-box-image {
         display: flex;
-        width: 18%;
+        width: 16%;
         order: 1;
 
         img {
-            width: 150px;
-            height: 210px;
+            width: 135px;
+            height: 189px;
             object-fit: cover;
         }
     }
@@ -136,7 +136,7 @@
 
         .collaborator-box-text {
             padding-right: 1em;
-            max-width: 80%;
+            max-width: 84%;
         }
     }
 }
