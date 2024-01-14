@@ -127,11 +127,12 @@
         line-height: 1;
         order: 2;
     }
-    p.collaborator-box-text {
-    margin-bottom: 10px;
-    margin-top: 10px;
+  
+    .collaborator-box-text-line-spacing {
+        margin-bottom: 10px;
+        margin-top: 10px;
     }
-
+    
     @include breakpoint($medium) {
         .collaborator-box-image {
             min-width: 150px;
