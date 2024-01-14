@@ -129,8 +129,8 @@
     }
   
     .collaborator-box-text p {
-        margin-bottom: 10px !important;
-        margin-top: 10px !important;
+        margin-bottom: 5px;
+        margin-top: 5px;
     }
     
     @include breakpoint($medium) {
