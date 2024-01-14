@@ -128,7 +128,7 @@
         order: 2;
     }
   
-    .collaborator-box-text-line-spacing {
+    .collaborator-box-text p {
         margin-bottom: 10px !important;
         margin-top: 10px !important;
     }
