@@ -122,9 +122,9 @@
     }
 
     .collaborator-box-text {
-        max-width: 100%;
+        max-width: 87%;
         padding-left: 12px;
-        line-height: 0.2;
+        line-height: 1;
         order: 2;
     }
 
