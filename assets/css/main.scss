@@ -52,10 +52,9 @@
     font-family: 'Times New Roman', Times, serif; // 添加字体样式
 
     .paper-box-image {
-        justify-content: center;
+        justify-content: right;
         display: flex;
         width: 100%;
-        max-width: 40%;
         order: 2;
 
         img {
@@ -76,14 +75,14 @@
         .paper-box-image {
             justify-content: left;
             min-width: 200px;
-            max-width: 40%;
+            max-width: 35%;
             order: 2;
         }
 
         .paper-box-text {
             justify-content: left;
             padding-right: 1em;
-            max-width: 60%;
+            max-width: 65%;
             order: 1;
         }
     }
